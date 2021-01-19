@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MathStations.MainPage">
+    <StackLayout Margin="20,20,20,20">
+        <Frame BackgroundColor="YellowGreen" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Math Stations!" HorizontalTextAlignment="Center" TextColor="Black" FontSize="30" />
+        </Frame>
+        <Label Text="Stuff about the owner:"
+               FontAttributes="Bold"
+               BackgroundColor="DarkOrange"/>
+        <Label Text="Hello, my name is Nick. All throughout my life, I have been a computer science and math enthusiast. Recently, I have been inspired to do apps."/>
+        <Label Text="Stuff about MathStations:"
+               FontAttributes="Bold"
+               BackgroundColor="LawnGreen"/>
+        <Label Text="What MathStations does is that it helps kids memorize basic math facts. There are four stations: Addition, Subtraction, Multiplication, and Division, and they have different levels from 1 to 4.  Level 1 is: Beginner, level 2 is Easy, level 3 is Medium, and level 4 is Hard." ></Label>
+            <Label Text="Stations:" FontAttributes="Bold" BackgroundColor="Turquoise"/>
+        <Button x:Name="button" Text="Addition" Clicked="OnNextPageButtonClicked"/>
+        <Button x:Name="button2" Text="Subtraction" Clicked="SecondNextPageButtonClicked"/>
+        <Button x:Name="button3" Text="Multiplication" Clicked="ThirdNextPageButtonClicked"/>
+        <Button x:Name="button4" Text="Division" Clicked="LastButtonClicked"/>
+                    <Label Text="Contact Me:" FontAttributes="Bold"
+                                     BackgroundColor="Gold"/>
+        <Button Text="Contact Me "/>
+    </StackLayout>
+</ContentPage>

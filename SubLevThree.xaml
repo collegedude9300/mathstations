@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MathStations.SubLevThree">
+    <ContentPage.Content>
+                        <StackLayout Margin="20,10,10,20">
+        <Frame BackgroundColor="Aqua" Padding="2" CornerRadius="0">
+            <Label Text="Subtraction Page!" HorizontalTextAlignment="Center" TextColor="Black" FontSize="24" />
+        </Frame>
+    <Label Text="Subtraction level 3:"> </Label>
+        <Button Text="Question 1"
+           Clicked="ProbOne_SubLevThree" />
+             <Label x:Name="prob1lev3sub" />
+         <Button Text="Question 2"
+            Clicked="ProbTwo_SubLevThree" />
+              <Label x:Name="prob2lev3sub" />
+         <Button Text="Question 3"
+           Clicked="ProbThree_SubLevThree" />
+             <Label x:Name="prob3lev3sub" />
+         <Button Text="Question 4"
+            Clicked="ProbFour_SubLevThree" />
+              <Label x:Name="prob4lev3sub" />        
+    <Label Text="Click on the next level, once you're ready, or if you want to go back to the homepage, click, 'Back to Home'."/>
+    <Button x:Name="buttonSubFour" Text="Level 4" Clicked="SubFour" VerticalOptions="Center"/>
+    <Button x:Name="buttonHome" Text="Back to Home" Clicked="BackToHomeClicked" VerticalOptions="Center"/>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

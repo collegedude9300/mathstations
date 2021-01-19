@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MathStations.Addition">
+    <ContentPage.Content>
+<StackLayout Margin="20,10,10,20">
+        <Frame BackgroundColor="PeachPuff" Padding="2" CornerRadius="0">
+            <Label Text="Addition Page!" HorizontalTextAlignment="Center" TextColor="Black" FontSize="24" />
+        </Frame>
+    <Label Text="Which level do you want to start off with first?"> </Label>
+    <Button x:Name="buttonAddOne" Text="Level 1: Beginner" Clicked="AddOne" VerticalOptions="Center"/>
+    <Button x:Name="buttonAddTwo" Text="Level 2: Easy" Clicked="AddTwo" VerticalOptions="Center"/>
+    <Button x:Name="buttonAddThree" Text="Level 3: Medium" Clicked="AddThree" VerticalOptions="Center"/>
+    <Button x:Name="buttonAddFour" Text="Level 4: Hard" Clicked="AddFour" VerticalOptions="Center"/>
+    <Label Text="To go back to the main page, click on, 'Go To Main Page'."/>
+    <Button x:Name="buttonhome" Text="Go To Main Page" Clicked="BackToMain" VerticalOptions="Center"/>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
